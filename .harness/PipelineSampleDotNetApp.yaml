@@ -23,7 +23,7 @@ pipeline:
             spec:
               connectorRef: harnessnadeem
               namespace: harness-delegate-ng
-              automountServiceAccountToken: true
+              automountServiceAccountToken: false
               nodeSelector: {}
               os: Windows
           execution:
